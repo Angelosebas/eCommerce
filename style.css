@@ -1,0 +1,261 @@
+
+/*Encabezado*/
+header{
+    background-color: #FFFFFF;
+    padding: 32.5px 155px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.logo-busqueda{
+    margin-left: 175px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 30px;
+    width: 40px;
+}
+
+.logo p{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.logo .logo-azul{
+    margin-left: 10px;
+    color: #4667ea;
+}
+/*Busqueda*/
+.logo-busqueda input{
+    margin-left: 10%;
+    width: 395px;
+    height: 40px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 1% 3%;
+    border: none;
+    background-color: #edeaea;
+    background-image: url(img/lupa.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 330px;
+}
+
+.login{
+    width: 600px;
+    display: flex;
+    justify-content: end;
+}
+
+.login button{
+    width: 180px;
+    height: 50px;
+    background: none;
+    border: 1px solid #4667ea;
+    text-transform: uppercase;
+}
+
+.login button:hover{
+    background: #4e6ce4;
+    color: #FFFFFF;
+}
+
+/* Banner promocional*/
+
+.destaque{
+    height: 500px;
+    background-image: url(img/Hero.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    padding: 32px;
+}
+
+/*Padre de productos*/
+
+.productos-generales{
+    font-size: 22px;
+    font-family: 'Barlow Condensed';
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: 0 auto;
+}
+
+/*Seccion de productos*/
+
+.a{
+    font-size: 23px;
+    text-decoration: none;
+    color: #444bd8;
+}
+.a:hover{
+    color: #2f38e2;
+    text-decoration: underline;
+}
+
+.prod-titulo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.prod-titulo .titulo{
+    font-size: 32px;
+    font-weight: border;
+}
+
+.mostrar-mas{
+    font-weight: bold;
+    margin-top: 25px;
+    color: #4e6ce4;
+}
+
+.seccion-productos{
+    height: 310px;
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-bottom: 50px;
+}
+/*Contacto*/
+
+.contacto{
+    background: #e9eef9;
+    width: 100vw;
+    display: flex;
+    justify-content:center;
+  }
+  
+  .contacto__container{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    padding: 3rem 0;
+    width: 60vw
+  
+  }
+  
+  .contacto__referencia--containter{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-start;
+  }
+  
+  .referencia{
+    margin-right: 8rem;
+  }
+  
+  .referencia img{
+    height: 30px;
+    width: 40px;
+  }
+  
+  .referencia p{
+    font-size:26px;
+    font-weight:bold;
+    color:#201b1c;
+  }
+  
+  .referencia .logo-azul{
+    margin-left: 10px;
+    color: #525af1;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .links-utiles a{
+    font-family: 'Barlow Condensed';
+    font-size: 20px;
+    color: #525af1 ;
+    font-weight: normal;
+    margin-bottom: 1em;
+    text-decoration: none;
+  }
+
+  .links-utiles a:hover{
+    text-decoration: underline;
+  }
+  
+  .form{
+   width: 50%;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+   align-content: center;
+  }
+  
+  .links-utiles{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .form p{
+    font-family:sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #1b1b20 ;
+    margin: 0;
+  }
+  
+  .input-nombre,.input-mensaje, .form button, .mostrar-mas button,.input-descripcion
+   {
+      width: 100%;
+      margin: 0.5rem 0;
+      padding: 1.5em;
+      border: none;
+      box-shadow: 1px 1px 1px gray;
+    }
+  
+   .form button, .mostrar-mas button{
+    width: 170px;
+    color: #FFFFFF;
+    background: #2f38e2;
+  }
+
+  .form button:active{
+    color: #ffffff;
+    background: #3d64d1;
+  }
+  
+  .mostrar-mas {
+    width:40%;
+    display: flex;
+     justify-content: flex-end; 
+    }
+  
+    .input-descripcion{
+      width: 25%;
+      height: 6em;
+    }
+  
+    .menu_Administrador__boton{
+      color: #c2b4b8;
+    }
+
+    .pie{
+        background: #a6aaed;
+        height: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        color: #05225c;
+    }
+    
